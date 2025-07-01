@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;              /* Makes it horizontal */
+  background-color: #333;     /* Dark background */
+  justify-content: center;
+  align-items: center;    /* Center nav */
+}
+
+/* Style list items */
+.nav-menu li {
+  margin: 0;
+}
+
+/* Style links */
+.nav-menu a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+  background-color: #555;
+}
