@@ -29,3 +29,30 @@ h1 {
 .nav-menu a:hover {
   background-color: #555;
 }
+.intro{
+  text-align: center;
+  justify-content: center;
+}
+.contact{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;              /* Makes it horizontal */
+  justify-content: center;
+  align-items: center; 
+
+}
+.contact-info{
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;              /* Makes it horizontal */
+  justify-content: center;
+  align-items: center; 
+}
+.content{
+
+}
+.bold{
+  font-weight: bold;
+}
