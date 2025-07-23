@@ -1,12 +1,23 @@
+*{
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+
+ 
+ 
+}
+
 h1 {
   text-align: center;
 }
 .nav-menu {
+  display:flex;
+  flex-direction: row; /* Ensures horizontal layout */
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;              /* Makes it horizontal */
-  background-color: #333;     /* Dark background */
+  background-color: orange;     /* Dark background */
   justify-content: center;
   align-items: center;    /* Center nav */
 }
@@ -18,41 +29,103 @@ h1 {
 
 /* Style links */
 .nav-menu a {
-  display: block;
+  
   padding: 14px 20px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  display: flex;
+  justify-content: center; /* Center text in the link */
+  align-items: center; /* Center text vertically */
 }
 
 /* Hover effect */
 .nav-menu a:hover {
   background-color: #555;
 }
-.intro{
+#intro{
   text-align: center;
   justify-content: center;
-}
-.contact{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;              /* Makes it horizontal */
-  justify-content: center;
-  align-items: center; 
+  background-image: url("https://media.istockphoto.com/id/1172427455/photo/beautiful-sunset-over-the-tropical-sea.jpg?s=612x612&w=0&k=20&c=i3R3cbE94hdu6PRWT7cQBStY_wknVzl2pFCjQppzTBg=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
-.contact-info{
+#intro h1 {
+  color: orange;
+  font-size: 2.5em;
+  margin-top: 20px;
+  border: 2px solid rgb(247, 247, 246);
+}
+#intro img {
+  border-radius: 25%;
+  border: 2px solid rgb(247, 247, 246);
+}
+#intro p {
+  font-size: 1.2em;
+  margin: 20px auto;
+  max-width: 800px; /* Limit width for better readability */
+  line-height: 1.6; /* Improve line spacing */
+}
+#Education_Accomplishments{
+  
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  text-align: center ;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid orange;
+}
+#Education_Accomplishments li {
   list-style: none;
-  margin: 10px;
+  text-align: center ;
+  padding : 10px;
+}
+#skills{
   padding: 10px;
-  display: flex;              /* Makes it horizontal */
-  justify-content: center;
-  align-items: center; 
-}
-.content{
+  display: flex;
 
 }
-.bold{
-  font-weight: bold;
+#skills table{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0, auto;
 }
+#skills th{
+  background-color: orange;
+  color: black;
+
+}
+#projects{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#projects li{
+  list-style: none;
+  display:inline-flex;
+  padding: 20px;
+  margin: 0, auto;
+ 
+}
+#contact{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+#contact li{
+  list-style: none;
+  display:inline-flex;
+  padding: 20px;
+  margin: 0, auto;
+}
+#contact h2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: orange double 4px;
+}
+
